@@ -252,6 +252,14 @@ document.getElementById("waterInput")
 document.addEventListener("click", e => {
   if (!e.target.closest(".card")) document.getElementById("suggestions").style.display = "none";
 });
+  // ADVANCED SEARCH (case insensitive + partial match)
+function findWater(name) {
+  name = name.toLowerCase();
+  return waterDatabase.find(w =>
+    w.name.toLowerCase().includes(name)
+  );
+}
 </script>
 </body>
+
 </html>
