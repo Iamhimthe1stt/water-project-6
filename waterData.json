@@ -1,0 +1,24 @@
+{
+  "waters": [
+    {
+      "name": "Evian",
+      "purity": 92,
+      "status": "Excellent purity"
+    },
+    {
+      "name": "Highland Spring",
+      "purity": 88,
+      "status": "Good purity"
+    },
+    {
+      "name": "Buxton",
+      "purity": 80,
+      "status": "Average purity"
+    },
+    {
+      "name": "Volvic",
+      "purity": 90,
+      "status": "Very clean mineral balance"
+    }
+  ]
+}
