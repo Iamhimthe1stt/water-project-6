@@ -215,6 +215,7 @@ function selectSuggestion(name) {
 
 function scanWater() {
   const query = document.getElementById("waterInput").value.trim().toLowerCase();
+  if (query.length < 2) return;
   const result = document.getElementById("result");
   const errMsg = document.getElementById("errorMsg");
   document.getElementById("suggestions").style.display = "none";
@@ -263,4 +264,5 @@ function findWater(name) {
 </body>
 
 </html>
+
 
